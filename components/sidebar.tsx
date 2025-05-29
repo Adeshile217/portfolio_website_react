@@ -153,7 +153,7 @@ export function Sidebar() {
         </div>
 
         {/* Download CV */}
-        <a href="./Adeshile_Ibraheem_CV.docx" download>
+        <a href="/Adeshile_Ibraheem_CV.docx" download>
         <Button className="w-full mb-6 bg-orange-500 hover:bg-orange-600 text-white">
           <Download className="mr-2 h-4 w-4" />
           DOWNLOAD CV
