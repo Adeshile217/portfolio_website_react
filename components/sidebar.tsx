@@ -89,7 +89,9 @@ export function Sidebar() {
             <img src="/images/profile.jpg" alt="ADESHILE IBRAHEEM" className="w-full h-full object-cover" />
           </div>
           <h2 className="text-xl font-bold text-white mb-1">ADESHILE IBRAHEEM</h2>
-          <p className="text-gray-400 text-sm">Frontend Developer</p>
+          <p className="text-gray-400 text-sm">Developer</p>
+          <p className="text-gray-400 text-sm">Designer</p>
+
         </div>
       </div>
 
