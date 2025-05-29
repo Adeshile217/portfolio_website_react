@@ -141,7 +141,7 @@ export function Sidebar() {
 
         {/* Tools & Technologies */}
         <div className="mb-8">
-          <h3 className="text-white font-semibold mb-4">Tools & Technologies</h3>
+          {/* <h3 className="text-white font-semibold mb-4">Tools & Technologies</h3> */}
           <div className="space-y-2">
             {tools.map((tool, index) => (
               <div key={index} className="flex items-center">
