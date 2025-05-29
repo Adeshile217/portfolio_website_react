@@ -173,18 +173,18 @@ export function Sidebar() {
             <Linkedin className="h-4 w-4" />
           </Button>
 
-          <Button
+          {/* <Button
            variant="ghost" 
            size="icon" 
            className="text-[#333333] hover:text-[#000000] hover:bg-[#333333]/10"
            onClick={() => window.open("https://www.github.com/Adeshile217"), "_blank"}>
             <Github className="h-4 w-4" />
-          </Button>
+          </Button> */}
 
           <Button
             variant="ghost"
             size="icon"
-            className="text-[#E4405F] hover:text-[#C13584] hover:bg-[#E4405F]/10"
+            className="text-[#333333] hover:text-[#000000] hover:bg-[#333333]/10"
             onClick={() => window.open("https://www.github.com/Adeshile217", "_blank")} // Update with actual Instagram URL when available
           >
             <Github className="h-4 w-4" />

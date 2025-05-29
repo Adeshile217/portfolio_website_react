@@ -210,18 +210,21 @@ export function NavigationSidebar({ isOpen: externalIsOpen, setIsOpen: externalS
                 >
                   <Linkedin className="h-5 w-5" />
                 </Button>
+
                 <Button
                   variant="outline"
                   size="icon"
                   className="border-[#333333] text-[#333333] hover:border-[#000000] hover:text-[#000000] hover:bg-[#333333]/10 bg-transparent"
+                  onClick={() => window.open("https://www.github.com/Adeshile217", "_blank")}
                 >
                   <Github className="h-5 w-5" />
                 </Button>
+
                 <Button
                   variant="outline"
                   size="icon"
                   className="border-[#E4405F] text-[#E4405F] hover:border-[#C13584] hover:text-[#C13584] hover:bg-[#E4405F]/10 bg-transparent"
-                  onClick={() => window.open("https://www.instagram.com/", "_blank")} // Update with actual Instagram URL when available
+                  onClick={() => window.open("https://www.instagram.com/ade_adeshile__?igsh=MXVjaWkzcHJhbmJkeA%3D%3D&utm_source=qr", "_blank")} // Update with actual Instagram URL when available
                 >
                   <Instagram className="h-5 w-5" />
                 </Button>
